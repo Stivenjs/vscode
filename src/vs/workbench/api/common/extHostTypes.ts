@@ -5105,6 +5105,12 @@ export enum RelatedInformationType {
 	SettingInformation = 4
 }
 
+export enum SettingsSearchResultBundleKind {
+	EMBEDDED = 1,
+	LLM_RANKED = 2,
+	CANCELED = 3,
+}
+
 //#endregion
 
 //#region Speech
