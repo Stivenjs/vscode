@@ -3261,6 +3261,7 @@ export namespace IconPath {
 export namespace AiSettingsSearch {
 	export function fromSettingsSearchResultBundle(bundle: vscode.SettingsSearchResultBundle): AiSettingsSearchResultBundle {
 		return {
+			query: bundle.query,
 			kind: fromSettingsSearchResultBundleKind(bundle.kind),
 			settings: bundle.settings
 		};
